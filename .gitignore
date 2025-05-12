@@ -1,40 +1,12 @@
-# Python
+# 大文件排除规则
+*.zip
+*.tar.gz
+*.mp3
+*.wav
+/vosk-model-small-*/
+/models/
+/voice_models/
+
+# Python项目基础规则
 __pycache__/
 *.py[cod]
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
-venv/
-env/
-
-# IDE
-.vscode/
-.idea/
-
-# Logs
-*.log
-
-# Local Development
-.env
-.env.local
-
-# Test
-.coverage
-htmlcov/
-.pytest_cache/
